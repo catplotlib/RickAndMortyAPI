@@ -6,3 +6,6 @@ Finally got a chance to fiddle around with the RickandMorty API. Made a basic we
 https://user-images.githubusercontent.com/61319491/128612181-b3103e35-d8a5-4bd8-bd11-ebf9c4743a4b.mp4
 
 Link to app: https://rickandmorty-and-funwithapi.netlify.app/
+
+# API
+The API is taken from https://rickandmortyapi.com/, thanks a lot to them for making this incredible API! 
