@@ -33,7 +33,7 @@ const Home = () => {
     } 
     else {
       result = allData.filter((data) => {
-        return data.name.search(value) != -1;
+        return data.name.search(value) !== -1;
       });
       setFilteredData(result);
     }
