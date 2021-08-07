@@ -98,23 +98,14 @@ const Nav = () => {
                   Home
                 </Link>
               </div>
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3"></div>
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link
-                  smooth
-                  to="/about"
-                  className="text-green-300 hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  About
-                </Link>
-              </div>
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link
-                  smooth
-                  to="/api"
-                  className="text-green-300 hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                <a
+                  href="https://rickandmortyapi.com/"
+                  className="text-green-300 hover:bg-green-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   API
-                </Link>
+                </a>
               </div>
             </div>
           )}
