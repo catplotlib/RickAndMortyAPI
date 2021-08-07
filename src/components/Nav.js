@@ -21,12 +21,7 @@ const Nav = () => {
                   >
                     Home
                   </Link>
-                  <Link
-                    to="/about"
-                    className="text-green-300 hover:bg-green-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    About
-                  </Link>
+
                   <a
                     href="https://rickandmortyapi.com/"
                     className="text-green-300 hover:bg-green-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
