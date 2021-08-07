@@ -2,14 +2,14 @@ import React from "react";
 var d = "";
 var a = "";
 const Card = ({ key, id, name, status, species, image }) => {
-  if (status == "Alive") {
+  if (status === "Alive") {
     d = "🟢";
   } else {
     d = "🔴";
   }
-  if (species == "Human") {
+  if (species === "Human") {
     a = "🧍";
-  } else if (species == "Animal") {
+  } else if (species === "Animal") {
     a = "🐻";
   } else {
     a = "👽";
